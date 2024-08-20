@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1>Successfully Login</h1>
+    <div id="userInfo" style="display: none;">
+        <img id="userPhoto" src="" alt="User Photo">
+        <p id="username"></p>
+        <p id="email"></p>
+
+    </div>
+    
+
+    <button id="getLocation">Get Location</button>
+    <button id="sign-out-btn" style="display: none;">Sign Out</button><br>
+    <div id="map" style="height: 400px; width: 100%;"></div>
+    <p id="address"></p>
+    <button id="copy-address-btn" style="display:none">Copy Address</button>
+    
+
+    
+
+    <script src="location.js"></script>
+    <script src="main.js" defer type="module"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv356gW92xpoEQItB3O1rYVZtvmwL51nQ"></script>
+
+</div>
+</body>
+</html>
